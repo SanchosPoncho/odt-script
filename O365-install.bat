@@ -15,6 +15,6 @@ mkdir C:\temp
 powershell -Command "Invoke-WebRequest https://managedsolution-my.sharepoint.com/:f:/p/wford/EuTMSxuVNilMjAXBeBNCQYYB9PuswrxMnCAWmFRFZjJnSA?e=X0Bh75 -OutFile C:\temp\setup.exe"
 :: Download XML File
 powershell -Command "Invoke-WebRequest https://managedsolution-my.sharepoint.com/:u:/p/wford/EQq4I5x71BdLhAG_lOWRmFEB3nFntlouOfDH1EKO1J267Q?e=jSSBN7 -OutFile C:\temp\bussiness-config64.xml"
-C:\temp\odt.exe /configure C:\temp\bussiness-config64.xml
+C:\temp\setup.exe /configure C:\temp\bussiness-config64.xml
 
 
